@@ -25,10 +25,14 @@ Functionality and Errors:
   
   If the command is a pop command, and the specified name does not exist, the program will output the string "ERROR: This name does not exist!" using the same casing as is displayed here. If the stack or queue does exist, but it is empty, the program will output the string "ERROR: This list is empty!" If the stack or queue does exist and is not empty, the pop operation will be applied, and the program will output "Value popped: ", followed by the value that is popped from the stack or queue.  In this program, a "pop" is assumed to both remove and return a value from the stack or queue.
   
+
 Example
 
+
 Input file:
+
 create i1 queue
+
 create i1 queue
 
 create i1 stack
@@ -58,6 +62,8 @@ push s99 planet
 pop i2
 
 push i2 150
+
+
 
 Output file:
 
