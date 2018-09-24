@@ -28,9 +28,7 @@ Functionality and Errors:
 Example
 
 Input file:
-
 create i1 queue
-
 create i1 queue
 
 create i1 stack
