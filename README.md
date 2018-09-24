@@ -1,8 +1,7 @@
 Minh-Thai Nguyen
-
 Made in March 2018
 
-This program was written for Data Structures and Algorithms 1. At it's core, this program implements the basic data structures of stacks and queues. The program interprets commands from a file and outputs the results into another file. These commands include creating a new stack or queue of integer, double, or string type, pushing onto a stack or queue, and popping from a stack or queue. The explicit details are listed below the example.
+  This program was written for Data Structures and Algorithms 1. At it's core, this program implements the basic data structures of stacks and queues. The program interprets commands from a file and outputs the results into another file. These commands include creating a new stack or queue of integer, double, or string type, pushing onto a stack or queue, and popping from a stack or queue. The explicit details are listed below the example.
 
 Formatting of the Input File:
   
@@ -27,46 +26,87 @@ Functionality and Errors:
   If the command is a pop command, and the specified name does not exist, the program will output the string "ERROR: This name does not exist!" using the same casing as is displayed here. If the stack or queue does exist, but it is empty, the program will output the string "ERROR: This list is empty!" If the stack or queue does exist and is not empty, the pop operation will be applied, and the program will output "Value popped: ", followed by the value that is popped from the stack or queue.  In this program, a "pop" is assumed to both remove and return a value from the stack or queue.
   
 Example
+
 Input file:
-  create i1 queue
-  create i1 queue
-  create i1 stack
-  create i2 stack
-  create s99 stack
-  push i1 50
-  push i1 100
-  push i2 -50
-  push i2 100
-  push s99 Hello
-  push s99 World
-  pop i2
-  pop s99
-  push s99 planet
-  pop i2
-  push i2 150
+
+create i1 queue
+
+create i1 queue
+
+create i1 stack
+
+create i2 stack
+
+create s99 stack
+
+push i1 50
+
+push i1 100
+
+push i2 -50
+
+push i2 100
+
+push s99 Hello
+
+push s99 World
+
+pop i2
+
+pop s99
+
+push s99 planet
+
+pop i2
+
+push i2 150
+
 Output file:
-  PROCESSING COMMAND: create i1 queue
-  PROCESSING COMMAND: create i1 queue
-  ERROR: This name already exists!
-  PROCESSING COMMAND: create i1 stack
-  ERROR: This name already exists!
-  PROCESSING COMMAND: create i2 stack
-  PROCESSING COMMAND: create s99 stack
-  PROCESSING COMMAND: push i1 50
-  PROCESSING COMMAND: push i1 100
-  PROCESSING COMMAND: push i2 -50
-  PROCESSING COMMAND: push i2 100
-  PROCESSING COMMAND: push s99 Hello
-  PROCESSING COMMAND: push s99 World
-  PROCESSING COMMAND: pop i2
-  Value popped: 100
-  PROCESSING COMMAND: pop s99
-  Value popped: World
-  PROCESSING COMMAND: push s99 planet
-  PROCESSING COMMAND: pop i2
-  Value popped: -50
-  PROCESSING COMMAND: push i2 150
-  
+
+PROCESSING COMMAND: create i1 queue
+
+PROCESSING COMMAND: create i1 queue
+
+ERROR: This name already exists!
+
+PROCESSING COMMAND: create i1 stack
+
+ERROR: This name already exists!
+
+PROCESSING COMMAND: create i2 stack
+
+PROCESSING COMMAND: create s99 stack
+
+PROCESSING COMMAND: push i1 50
+
+PROCESSING COMMAND: push i1 100
+
+PROCESSING COMMAND: push i2 -50
+
+PROCESSING COMMAND: push i2 100
+
+PROCESSING COMMAND: push s99 Hello
+
+PROCESSING COMMAND: push s99 World
+
+PROCESSING COMMAND: pop i2
+
+Value popped: 100
+
+PROCESSING COMMAND: pop s99
+
+Value popped: World
+
+PROCESSING COMMAND: push s99 planet
+
+PROCESSING COMMAND: pop i2
+
+Value popped: -50
+
+PROCESSING COMMAND: push i2 150
+
+
+
 
   
 
