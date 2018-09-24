@@ -1,5 +1,5 @@
 Minh-Thai Nguyen,
-Made in March 2018
+made in March 2018
 
   This program was written for Data Structures and Algorithms 1. At it's core, this program implements the basic data structures of stacks and queues. The program interprets commands from a file and outputs the results into another file. These commands include creating a new stack or queue of integer, double, or string type, pushing onto a stack or queue, and popping from a stack or queue. The explicit details are listed below the example.
 
